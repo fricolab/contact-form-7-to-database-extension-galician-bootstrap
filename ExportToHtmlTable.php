@@ -133,7 +133,7 @@ class ExportToHtmlTable extends ExportBase implements CFDBExport {
         if ($useDT) {
             $dtJsOptions = isset($options['dt_options']) ?
                     $options['dt_options'] :
-                    '"bJQueryUI": true, "aaSorting": [], "iDisplayLength": -1, "aLengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "' . __('Todos', 'contact-form-7-to-database-extension') . '"]]';
+                    '"bJQueryUI": true, "aaSorting": [], "iDisplayLength": -1, "aLengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "' . __('todos os', 'contact-form-7-to-database-extension') . '"]]';
             $i18nUrl = $this->plugin->getDataTableTranslationUrl();
             if ($i18nUrl) {
                 if (!empty($dtJsOptions)) {
